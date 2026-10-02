@@ -47,8 +47,8 @@ Substack doesn't expose a public API for these reads. Instead, this server repla
 ## 🚀 Setup
 
 ```bash
-git clone https://github.com/ryanrodrigues25200525-svg/substack-mcp.git
-cd substack-mcp
+git clone https://github.com/ryanrodrigues25200525-svg/Substack-MCP.git
+cd Substack-MCP
 npm install
 npm run build
 ```
@@ -68,7 +68,7 @@ Add to your MCP client's config (e.g. Claude Code's `~/.claude.json`, under `mcp
   "mcpServers": {
     "substack": {
       "command": "node",
-      "args": ["/absolute/path/to/substack-mcp/dist/index.js"],
+      "args": ["/absolute/path/to/Substack-MCP/dist/index.js"],
       "env": {
         "SUBSTACK_SESSION_TOKEN": "your_token_here"
       }
