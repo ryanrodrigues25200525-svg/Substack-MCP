@@ -1,4 +1,4 @@
-# substack-mcp 📰
+# Substack MCP 📰
 
 An [MCP](https://modelcontextprotocol.io) server for reading Substack — publications, posts, comments, author profiles, recommendations, and your Notes feed — using your own reader session, no official API required.
 
